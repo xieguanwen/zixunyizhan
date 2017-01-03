@@ -22,7 +22,7 @@ class CategoryController extends Controller
         $data = [];
         $data['attributes'] = Attribute::where('erase',0)->orderBy("sort","asc")->take(8)->get();
         $data['attributeDowns'] = Attribute::where('erase',0)->orderBy("sort","asc")->offset(9)->limit(10)->get();
-        $data['pathUrl'] = $_SERVER['REDIRECT_URL'];
+        $data['pathUrl'] = explode('?',$_SERVER['REQUEST_URI'])[0];
         $data['contentUrl'] = null;
 //        $sql = "select * from product ";
         if(array_search($request->get('order'),['sort','marketPrice','addTime'])){
@@ -45,7 +45,7 @@ class CategoryController extends Controller
         $data = [];
         $data['attributes'] = Attribute::where('erase',0)->orderBy("sort","asc")->take(8)->get();
         $data['attributeDowns'] = Attribute::where('erase',0)->orderBy("sort","asc")->offset(9)->limit(10)->get();
-        $data['pathUrl'] = $_SERVER['REDIRECT_URL'];
+        $data['pathUrl'] = explode('?',$_SERVER['REQUEST_URI'])[0];
         $data['contentUrl'] = $content;
 
         $model = ProductSelect::orderBy($order,'desc');
