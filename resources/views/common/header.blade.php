@@ -17,13 +17,12 @@
     <div class="nav">
         <ul>
             <li>&frasl;<a href="/">首页</a></li>
-            <li>&frasl;<a href="/category">手机大全</a></li>
-            <li>&frasl;<a href="">选购指南</a></li>
-            <li>&frasl;<a href="">使用详情</a></li>
-            <li>&frasl;<a href="">评测解析</a></li>
-            <li>&frasl;<a href="">手机对比</a></li>
-            <li>&frasl;<a href="">手机应用</a></li>
-            <li>&frasl;<a href="">其他</a>&frasl;</li>
+            <li>&frasl;<a href="/shoujidaquan">手机大全</a></li>
+            <li>&frasl;<a href="/xuangouzhinan">选购指南</a></li>
+            <li>&frasl;<a href="/shiyongxiangqing">使用详情</a></li>
+            <li>&frasl;<a href="/pingcejiexi">评测解析</a></li>
+            <li>&frasl;<a href="/shoujiduibi">手机对比</a></li>
+            <li>&frasl;<a href="/shoujiyingyong">手机应用</a></li>
         </ul>
     </div>
 </div>
