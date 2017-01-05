@@ -6,7 +6,7 @@
             </div>
             <div class="article_list_content">
                 <div class="article_content_div">
-                    {{ $article->content }}
+                    {!! $article->content !!}}
                 </div>
             </div>
         </div>
