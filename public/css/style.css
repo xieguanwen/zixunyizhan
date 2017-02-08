@@ -133,7 +133,7 @@ a,a:hover{color:#333;}
 .main_phone_list i{margin-left:26px;}
 .main_phone_list ul{float:left;}
 .main_phone_list ul li{float:left;width:93px;text-align: center;}
-.main_phone_list ul li a{display:block;font-size:18px;line-height: 43px;overflow: hidden;}
+.main_phone_list ul li a{display:block;font-size:18px;line-height: 43px;overflow: hidden;text-overflow: ellipsis;}
 
 .main_info{margin-top:28px;}
 .main_info_box .active{display: block;}
