@@ -22,7 +22,7 @@
                         <span>{{ $key }}<i>&gt;</i></span>
                         <ul>
                             @foreach($products as $product)
-                                <li><a href="/product-{{ $product->productId }}.html">{{ $product->name }}</a></li>
+                                <li><a href="/product-{{ $product->productId }}.html" title="{{ $product->name }}"><nobr>{{ $product->name }}</nobr></a></li>
                             @endforeach
                         </ul>
                     @endif
