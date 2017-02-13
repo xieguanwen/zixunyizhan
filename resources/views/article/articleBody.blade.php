@@ -2,7 +2,7 @@
     <div class="auto">
         <div class="article_list shadow">
             <div class="title">
-                <h3>{{ $article->title }}</h3>
+                <h1>{{ $article->title }}</h1>
             </div>
             <div class="article_list_content">
                 <div class="article_content_div">
